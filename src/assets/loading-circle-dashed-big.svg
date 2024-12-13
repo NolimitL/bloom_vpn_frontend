@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+ <path
+         transform="matrix(5.6 0 0 5.6 70 3.979e-14)"
+         d="m95.333 50c0 24.853-20.147 45-45 45s-45-20.147-45-45 20.147-45 45-45 45 20.147 45 45"
+         fill="none"
+         stroke="#fff"
+         stroke-dasharray="9.9182,4.9591"
+         stroke-miterlimit="10"
+         stroke-width="3">
+  <animateTransform
+          attributeName="transform"
+          attributeType="XML"
+          type="rotate"
+          dur="3s"
+          from="0 50 50"
+          to="360 50 50"
+          repeatCount="indefinite" />
+ </path>
+</svg>

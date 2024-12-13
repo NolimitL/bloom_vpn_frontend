@@ -1,0 +1,12 @@
+@import 'variables';
+
+html,
+body {
+  //background-color: $pageColor;
+  background-color: $brightPageColor;
+  //background-image: url("/src/assets/background_brigth.png"); // OLD
+  //background-image: url("/src/assets/background_dark.png");
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+}

@@ -1,0 +1,128 @@
+@import 'variables';
+
+html,
+body {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.5rem;
+  letter-spacing: 0.05em;
+  font-family: $baseFont;
+  color: $fontColor;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  color: inherit;
+}
+
+h1,
+.h1 {
+  font-size: 45px;
+  letter-spacing: -0.025em;
+  line-height: 1.35;
+  font-weight: normal;
+  font-family: Palatino, sans-serif;
+
+  @media (max-height: $bpTablet) {
+    font-size: 45px;
+  }
+
+  @media (max-width: $bpMobile) {
+    font-size: 38px;
+  }
+
+  @media (max-height: $bpPhone) {
+    font-size: 36px;
+  }
+}
+
+h2,
+.h2 {
+}
+
+h3,
+.h3 {
+}
+
+h4,
+.h4 {
+}
+
+h5,
+.h5 {
+}
+
+h6,
+.h6 {
+}
+
+p {
+  line-height: 1.5;
+  margin-bottom: 0.5em;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+a {
+  text-decoration: none;
+  transition: 0.2s;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+img {
+  max-width: 100%;
+}
+
+strong,
+b {
+  font-weight: bold;
+}
+
+input,
+button,
+textarea,
+select {
+  outline: none;
+  letter-spacing: 0.025em;
+}
+
+p::selection,
+span::selection,
+h1::selection,
+h2::selection,
+h3::selection,
+h4::selection,
+h5::selection,
+h6::selection,
+em::selection,
+div::selection,
+a::selection,
+img::selection,
+ul::selection,
+li::selection,
+table::selection,
+br::selection,
+sup::selection,
+input::selection,
+b::selection,
+ins::selection,
+strong::selection {
+  background: $highlightBackground;
+}
